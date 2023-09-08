@@ -1,0 +1,52 @@
+.form-contact{
+    width: 70%;
+    margin: auto;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+input, button{
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: auto;
+    width: 150px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #24a4ad;
+    color: white;
+
+}
+
+button:hover {
+    background: #106d74;
+    opacity: 80%;
+}
+
+textarea{
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.form-control, .form-area{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}

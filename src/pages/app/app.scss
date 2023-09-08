@@ -1,0 +1,11 @@
+.wrapper{
+  max-width: 100vw;
+  box-sizing: border-box;
+  padding: 30px 15% 0;
+  
+  .content{
+    box-sizing: border-box;
+    padding: 50px 30px;
+    min-height: 70vh;;
+  }
+}
