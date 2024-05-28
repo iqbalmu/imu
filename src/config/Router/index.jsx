@@ -1,5 +1,4 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import { About, Contact, Projects } from '../../pages'
 
 const Router = () => {
