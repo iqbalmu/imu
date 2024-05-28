@@ -1,9 +1,9 @@
-import React from 'react'
 import { TitlePage } from '../../components'
 import Project from '../../components/Project'
 import { projects } from '../../data';
 
 const Projects = () => {
+
   return (
     <div>
       <TitlePage title={"Projects"} desc={"several projects that I made"} />
@@ -12,7 +12,7 @@ const Projects = () => {
       <div className='showcase'>
         {
           projects.map((project) => (
-            <Project key={project.id} image={project.image} title={project.title} desc={project.desc} tags={project.tags} />
+            <Project key={project.id} images={project.images} title={project.title} desc={project.desc} tags={project.tags} />
           ))
         }
       </div>
