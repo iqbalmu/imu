@@ -67,3 +67,31 @@ export const projects = [
     link: "",
   },
 ];
+
+// data contacts
+export const contacts = [
+  {
+    id: 1,
+    title: 'Phone',
+    content: '082196506900',
+    url: 'https://wa.me/+6282196506900'
+  },
+  {
+    id: 2,
+    title: 'Email',
+    content: 'iqbalmu1601@gmail.com',
+    url: 'mailto:iqbalmu1601@gmail.com'
+  },
+  {
+    id: 3,
+    title: 'Github',
+    content: 'iqbalmu',
+    url: 'https://github.com/iqbalmu'
+  },
+  {
+    id: 4,
+    title: 'LinkedIn',
+    content: 'iqbal-muhakim-246b79280',
+    url: 'https://www.linkedin.com/in/iqbal-muhakim-246b79280/'
+  },
+]

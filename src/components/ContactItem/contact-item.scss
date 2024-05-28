@@ -1,0 +1,16 @@
+.contact-item {
+  display: flex;
+  margin: 1.3em 0;
+  // background-color: grey;
+
+  p.title{
+    width: 15%;
+    color: #8b8b8b;
+  }
+
+  p > a {
+    color: #e3e3e3;
+    text-decoration: none;
+  }
+
+}
